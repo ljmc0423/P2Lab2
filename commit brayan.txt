@@ -1,0 +1,1 @@
+no pudo realizarse el commit de Brayan, que consistía de Lab2(la interfaz programada por el), por un problema de acceso al repositorio. Al final su parte fue subida por Lorenzo
