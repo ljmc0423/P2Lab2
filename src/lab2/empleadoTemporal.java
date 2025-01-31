@@ -32,7 +32,9 @@ public class empleadoTemporal extends Empleado {
     }
    
     
-    
+    public void setFechaVencimiento(Calendar fechaVencimiento) {
+        this.fechaVencimiento = fechaVencimiento;
+    }
     
     
     
