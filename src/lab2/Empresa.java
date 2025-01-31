@@ -19,15 +19,14 @@ public class Empresa {
     
     //registrar empleados
     
-   /* public void registrarEmpleados(){
+    public void registrarEmpleados(Empleado empleado){
     
-    if(buscarEmpleadoPorCodigo()){}
-    
-    
-    
-    
-    
-    }*/
+    if (buscarEmpleadoPorCodigo(String.valueOf(empleado.getCodigoUnico())) != null) {
+        System.out.println("Error: El código único ya está registrado.");
+        return;  
+    }
+    empleados.add(empleado);
+    }
     
     
     
