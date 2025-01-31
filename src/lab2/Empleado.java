@@ -37,6 +37,10 @@ public class Empleado {
         System.out.println("Fecha de contratacion: "+ fecha);
     
     }
+
+    public int getCodigoUnico() {
+        return codigoUnico;
+    }
     
     
     
