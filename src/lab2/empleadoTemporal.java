@@ -27,14 +27,8 @@ public class empleadoTemporal extends Empleado {
     }
     
     @Override
-    public void mostrarInformacion(){
-        
-        System.out.println("Codigo: "+codigoUnico);
-        System.out.println("Nombre: "+nombre);
-        System.out.println("Fecha de contratacion: "+ fecha);
-        System.out.println("Fecha fin de contrato: "+fechaVencimiento);
-    
-    
+    public String mostrarInformacion(){
+        return ("Codigo: "+codigoUnico+"\nNoombre: "+nombre+"\nFecha de contratacion: "+fecha+"\nFecha fin de contrato: "+fechaVencimiento);
     }
    
     

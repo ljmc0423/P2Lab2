@@ -30,12 +30,8 @@ public class Empleado {
     return pagoProporcional - deduccion; 
     }
     
-    public void mostrarInformacion(){
-    
-        System.out.println("Codigo: "+codigoUnico);
-        System.out.println("Nombre: "+nombre);
-        System.out.println("Fecha de contratacion: "+ fecha);
-    
+    public String mostrarInformacion(){
+        return ("Codigo: "+codigoUnico+"\nNoombre: "+nombre+"\nFecha de contratacion: "+fecha);
     }
 
     public int getCodigoUnico() {

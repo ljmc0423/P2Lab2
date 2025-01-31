@@ -4,21 +4,30 @@ import java.util.ArrayList;
 
 public class Empresa {
     
-    ArrayList <Empleado> em = new ArrayList<>(); 
+    ArrayList <Empleado> empleados = new ArrayList<>(); 
     
-    /*public Empleado buscarEmpleadoPorCodigo(String codigo) {
-        for (Empleado empleado : em) {
-            if (em.get(0)){
-                return empleado;
+    //buscar empleado
+    public Empleado buscarEmpleadoPorCodigo(String codigo) {
+        for (int i=0;i<empleados.size();i++) {
+            if (empleados.get(i).codigoUnico == Integer.parseInt(codigo)) {
+                return empleados.get(i);
             }
         }
         return null; 
+    }
+    
+    
+    //registrar empleados
+    
+   /* public void registrarEmpleados(){
+    
+    if(buscarEmpleadoPorCodigo()){}
+    
+    
+    
+    
+    
     }*/
-    //Empleado.codigoUnico.equals(codigo)
-    
-    
-    
-    
     
     
     
